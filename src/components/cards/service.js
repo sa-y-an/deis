@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx, Box, Image, Text, Heading } from 'theme-ui';
-import { LearnMore } from 'components/link';
+import { LearnMore, Link } from 'components/link';
 
 const Service = ({ item }) => {
   return (
@@ -11,7 +11,7 @@ const Service = ({ item }) => {
       <Box sx={styles.content}>
         <Heading as="h3">{item?.title}</Heading>
         <Text as="p">{item?.description}</Text>
-        {item?.moreLink && <LearnMore path={item?.moreLink} />}
+        {item?.moreLink && <Link label="learn more" path={`/${item.moreLink}`}></Link>}
       </Box>
     </Box>
   );
