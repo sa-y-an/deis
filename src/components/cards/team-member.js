@@ -11,7 +11,7 @@ const TeamMember = ({ member }) => {
                 
                 <Heading as="h3">{member?.name}</Heading>
                
-        <Image src={member?.avatar} alt={member?.name} />
+        <Image className='imageclass' src={member?.avatar} alt={member?.name} />
       
               <Box sx={styles.about}/>
         <Text as="p">{member?.designation}</Text>
@@ -54,12 +54,12 @@ const styles = {
     h3: {
       color: 'heading',
       fontFamily: 'body',
-      fontSize: [3, null, 17, null, 4],
+      fontSize: [20, null, 40, null, 32],
     },
     p: {
       color: '#7589A1',
       letterSpacing: '-0.2px',
-      mt: [2],
+      mt: [8],
     },
   },
   socialLinks: {
@@ -69,7 +69,7 @@ const styles = {
     mt: [3],
     a: {
       display: 'inline-flex',
-      mr: [2],
+      mr: [2], 
     },
   },
 };

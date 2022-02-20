@@ -24,7 +24,7 @@ const OurTeam = () => {
       </Container>
       
 
-      <Grid className='xyz' columns={[1, null,3]}>
+      <Grid className='xyz' columns={[1,null,3]}>
           {data?.map((item) => (
            
               <TeamMember member={item}/>
