@@ -1,15 +1,19 @@
 /** @jsx jsx */
-import { jsx, Flex, Box, Image, Text, Heading, Link } from 'theme-ui';
+import { jsx, Flex, Box, Image, Text, Heading, Link, Card, Grid} from 'theme-ui';
 import { FaTwitter, FaGithub, FaDribbble } from 'react-icons/fa';
+
 
 const TeamMember = ({ member }) => {
   return (
+    
     <Box sx={styles.section}>
-      <Flex as="figure" sx={styles.avatar}>
+         <Card className= 'xyzz'>
+                
+                <Heading as="h3">{member?.name}</Heading>
+               
         <Image src={member?.avatar} alt={member?.name} />
-      </Flex>
-      <Box sx={styles.about}>
-        <Heading as="h3">{member?.name}</Heading>
+      
+              <Box sx={styles.about}/>
         <Text as="p">{member?.designation}</Text>
         <Box sx={styles.socialLinks}>
           {member?.socialLinks?.map((social, index) => (
@@ -30,8 +34,10 @@ const TeamMember = ({ member }) => {
             </Link>
           ))}
         </Box>
-      </Box>
+        </Card>     
+              
     </Box>
+    
   );
 };
 

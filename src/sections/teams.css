@@ -1,0 +1,20 @@
+.xyz{
+          background-color: blue;
+          padding: 2;
+          border-radius: 4;
+          box-shadow: '0 0 8px rgba(0, 0, 0, 0.125)';
+          border: '1px solid';
+          border-color: 'muted';
+        }
+.xyzz{
+            background-color:blueviolet;
+            padding: 2;
+            border-radius: 4;
+            box-shadow: '0 0 8px rgba(0, 0, 0, 0.125)';
+            border: '1px solid';
+            border-color: 'muted';
+          }
+
+.membercard{
+    background-color: red; 
+}
