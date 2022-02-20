@@ -1,6 +1,5 @@
 import React from 'react';
-import Layout from '../components/Layout2.js'
-import { Container } from 'theme-ui';
+import Layout from '../components/Layout2.js';
 import Services from '../sections/why-us.js'
 import Banner from '../sections/activitiesBanner.js'
 
