@@ -3,10 +3,12 @@ import Layout from "../components/Layout2.js";
 import { Container, Box } from "theme-ui";
 import "./report.css";
 import Report from "../components/reports.js";
+import SEO from 'components/seo';
 
 export default function reports() {
 	return (
 		<Layout>
+			<SEO title="Annual Reports"></SEO>
 			<Box as="section" sx={styles.section}>
 				<Report/>
 			</Box>
