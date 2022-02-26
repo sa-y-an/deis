@@ -91,7 +91,7 @@
 	-moz-box-shadow: 0 6px 6px -6px #0e1119;
 	box-shadow: 0 6px 6px -6px #0e1119;
 }
-
+/* 
 #report .container td:hover {
 	background-color: #fff842;
 	color: #403e10;
@@ -102,7 +102,7 @@
 	transition-duration: 0.6s;
 	transition-property: all;
 	transition-timing-function: line;
-}
+} */
 
 @media (max-width: 800px) {
 	#report .container td:nth-child(4),

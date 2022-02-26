@@ -1,0 +1,9 @@
+Sections
+
+why-us - activity 
+services - the banner and iEEE
+other-services - notices
+blog - home page activity preview
+rest is self evident
+
+Components

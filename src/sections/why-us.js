@@ -34,6 +34,38 @@ const data = [
   }
 ];
 
+
+export default function AnnouncementCard(props) {
+  return(
+    <Box as="section" id="why-us" sx={styles.section}>
+    <Container>
+      <Tabs sx={styles.tabs} animated={{ tabPane: true }}>
+        {data?.map((item) => (
+          <TabPane
+            key={item.id}
+            tab={<Heading as="h4">{item.tabTitle}</Heading>}
+          >
+            {item.list.map((activity) => (
+              <div className="card" sx={styles.card}>
+                <Image src={activity.image} alt="project" className="img" sx={styles.img}/>
+                <div className="details" sx={styles.details}>
+                  <Text as="h2">{activity.title}</Text>
+                  <Text as="p">{activity.description}</Text>
+                  <div className="txt" sx={styles.txt}>
+                    <Text as="p">{activity.date}</Text>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </TabPane>
+        ))}
+      </Tabs>
+    </Container>
+  </Box>
+  );
+} 
+
+
 const styles = {
   section: {
     pt: [11, null, null, 12],
@@ -188,33 +220,3 @@ const styles = {
     }
   },
 };
-
-export default function AnnouncementCard(props) {
-  return(
-    <Box as="section" id="why-us" sx={styles.section}>
-    <Container>
-      <Tabs sx={styles.tabs} animated={{ tabPane: true }}>
-        {data?.map((item) => (
-          <TabPane
-            key={item.id}
-            tab={<Heading as="h4">{item.tabTitle}</Heading>}
-          >
-            {item.list.map((activity) => (
-              <div className="card" sx={styles.card}>
-                <Image src={activity.image} alt="project" className="img" sx={styles.img}/>
-                <div className="details" sx={styles.details}>
-                  <Text as="h2">{activity.title}</Text>
-                  <Text as="p">{activity.description}</Text>
-                  <div className="txt" sx={styles.txt}>
-                    <Text as="p">{activity.date}</Text>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </TabPane>
-        ))}
-      </Tabs>
-    </Container>
-  </Box>
-  );
-} 

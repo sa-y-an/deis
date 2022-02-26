@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../components/Layout2.js';
+import Layout from '../../components/Layout2.js';
 import { Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import { rgba } from 'polished';
