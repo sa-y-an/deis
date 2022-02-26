@@ -4,6 +4,8 @@ import Layout from '../components/Layout2.js'
 import { Card, Image, Text, Box, Button, Flex, Container, Grid, Link } from 'theme-ui'
 import { FaTwitter, FaGithub, FaDribbble } from 'react-icons/fa';
 import data from '../../data/members.js';
+import Team from '../sections/our-team'
+import SEO from 'components/seo';
 
 export default function Members() {
 
@@ -11,6 +13,8 @@ export default function Members() {
 
   return (
     <Layout>
+      <SEO title="members"></SEO>
+    
       <Container as="section" id="members" sx={styles.box}>
         <Flex sx={styles.btnbox}>
           <Button mr={8} onClick={()=>setActiveData(data.Y2020)}>2020</Button>
