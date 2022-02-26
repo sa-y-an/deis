@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../components/Layout2.js';
+import Layout from '../../components/Layout2.js';
 import { Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import { rgba } from 'polished';
@@ -13,8 +13,8 @@ export default function activities() {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Past program"
-            description="Get your info tests delivered at home collect a sample from the your progress tests."
+            title="Conferences"
+            description="This is the flagship event of the chapter, which is in line with the present day requirements in the global scenario of various condition assessment techniques for a variety of electrical systems."
           />    
           <table class="container">
 					<thead>
