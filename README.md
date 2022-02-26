@@ -26,6 +26,8 @@ yarn install
 gatsby develop
 ```
 
+- Navigate to ```localhost:8000``` to see the magic.
+
 ### PS
 > - Alternatively can be used with npm instead of yarn, but it causes some uses with version > 7 [see here for details](https://stackoverflow.com/questions/65549858/eresolve-unable-to-resolve-dependency-tree-when-installing-npm-react-facebook) <br/>
 > - Old Site - [https://ewh.ieee.org/r10/calcutta/deis/](https://ewh.ieee.org/r10/calcutta/deis/)
