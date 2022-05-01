@@ -37,6 +37,6 @@ gatsby develop
 
 **Thanks to the amazing people who contributed -** <br/> <br/>
 
-<a href = "https://github.com/sa-y-an/Arcane/graphs/contributors">
-<img src = "https://contrib.rocks/image?repo=sa-y-an/Arcane"/>
+<a href = "https://github.com/sa-y-an/deis/graphs/contributors">
+<img src = "https://contrib.rocks/image?repo=sa-y-an/deis"/>
 </a>
